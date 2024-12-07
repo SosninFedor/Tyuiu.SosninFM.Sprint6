@@ -7,15 +7,12 @@ namespace Tyuiu.SosninFM.Sprint6.Task0.V17.Test
 	public sealed class DataServiceTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void VAlidCalc()
 		{
 			DataService ds = new DataService();
-			double res = ds.Calculate(7, 8, 9);#
-			double wait = 0;
-			Assert.AreEqual(res, wait);
-
-
-
+			double res = ds.Calculate(3);
+			double wait = 6.695;
+			Assert.AreEqual(wait, res);
 
 		}
 	}

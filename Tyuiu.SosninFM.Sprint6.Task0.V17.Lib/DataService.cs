@@ -8,8 +8,8 @@ namespace Tyuiu.SosninFM.Sprint6.Task0.V17.Lib
 		public double Calculate(int x)
 		{
 
-			double res = (Math.Exp(x)) / x;
-			return Math.Round(res, 3);
+			double res = Math.Round(Math.Exp(x) / x, 3);
+			return res;
 		}
 	}
 }
