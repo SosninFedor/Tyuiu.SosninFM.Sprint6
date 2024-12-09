@@ -46,7 +46,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task3.V7
 
 		private void buttonHelp_YDS_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Таск 3 выполнил студент группы АСОиУб-23-1 Янголенко Данил Сергеевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			MessageBox.Show("Таск 3 выполнил студент группы АСОиУб-24-1 Соснин Федор Михайович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
 		}
 	}
 }
