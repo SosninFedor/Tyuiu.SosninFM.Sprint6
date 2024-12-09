@@ -8,11 +8,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task1.V27
 		{
 			InitializeComponent();
 		}
-
-		private void Form1_Load(object sender, EventArgs e)
-		{
-			DataService ds = new DataService();
-
+		DataService ds = new DataService();
 
 		private void buttonResult_LVA_Click(object sender, EventArgs e)
 		{
@@ -50,15 +46,9 @@ namespace Tyuiu.SosninFM.Sprint6.Task1.V27
 
 		private void buttonReference_LVA_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Таск 1 выполнил студент группы АСОиУБ-23-2 Лягин Владимир Александрович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			MessageBox.Show("Таск 1 выполнил студент группы АСОиУБ-24-1 Соснин Фёдор Михайлович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 
 
-	}
-}
-
-
-
-		}
 	}
 }

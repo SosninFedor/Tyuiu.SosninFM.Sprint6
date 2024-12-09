@@ -207,7 +207,7 @@
 			this.MaximizeBox = false;
 			this.Name = "FormMain";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Спринт 6 | Таск 0 | Вариант 12 | Лягин В.А.";
+			this.Text = "Спринт 6 | Таск 1 | Вариант 27 | Соснин Ф.М.";
 			this.groupBoxCondition_LVA.ResumeLayout(false);
 			this.groupBoxCondition_LVA.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_LVA)).EndInit();
