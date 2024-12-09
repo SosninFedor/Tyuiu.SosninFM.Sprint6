@@ -128,7 +128,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task3.V7
 			this.MaximizeBox = false;
 			this.Name = "FormMain";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Спринт 6 | Таск 3 | Вариант 7 | Янголенко Д. С.";
+			this.Text = "Спринт 6 | Таск 3 | Вариант 7 | Соснин Ф. М.";
 			this.Load += new System.EventHandler(this.FormMain_Load);
 			this.groupBoxCondition_YDS.ResumeLayout(false);
 			this.groupBoxCondition_YDS.PerformLayout();
