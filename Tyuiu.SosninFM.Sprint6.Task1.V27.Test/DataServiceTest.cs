@@ -18,17 +18,17 @@ namespace Tyuiu.SosninFM.Sprint6.Task1.V27.Test
 			double[] valueWaitArray;
 			valueWaitArray = new double[len];
 
-			valueWaitArray[0] = -19.62;
-			valueWaitArray[1] = -17.12;
-			valueWaitArray[2] = -18.15;
-			valueWaitArray[3] = -63.13;
-			valueWaitArray[4] = -24.92;
-			valueWaitArray[5] = -5.00;
-			valueWaitArray[6] = -1.46;
-			valueWaitArray[7] = 1.57;
-			valueWaitArray[8] = 6.38;
-			valueWaitArray[9] = 32.78;
-			valueWaitArray[10] = 225.11;
+			valueWaitArray[0] = 13.81;
+			valueWaitArray[1] = 11.87;
+			valueWaitArray[2] = 9.87;
+			valueWaitArray[3] = 7.74;
+			valueWaitArray[4] = 5.36;
+			valueWaitArray[5] = 2.5;
+			valueWaitArray[6] = 0;
+			valueWaitArray[7] = 0.79;
+			valueWaitArray[8] = -1.75;
+			valueWaitArray[9] = -3.78;
+			valueWaitArray[10] = -5.71;
 
 			double[] res;
 			res = new double[len];

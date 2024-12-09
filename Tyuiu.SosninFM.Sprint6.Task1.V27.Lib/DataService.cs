@@ -7,23 +7,29 @@ namespace Tyuiu.SosninFM.Sprint6.Task1.V27.Lib
 	{
 		public double[] GetMassFunction(int startValue, int stopValue)
 		{
-			double[] valueWaitArray;
+			double[] valueArray;
 			int len = (stopValue - startValue) + 1;
-			valueWaitArray = new double[len];
+			valueArray = new double[len];
 			double y;
-			double b;
 			int count = 0;
 			for (int x = startValue; x <= stopValue; x++)
-			{ 
-				b = 4 - 2 * x + ((2 + Math.Cos(x) / (2 * x - 2)));
-				y = Math.Round(b, 2);
-				valueWaitArray[count] = y;
+			{
+				int z = (2 * x - 2);
+				if (z == 0)
+				{
+					valueArray[count] = 0;
+				}
+				else
+				{
+					y = ((4 - 2 * x) + ((2 + (Math.Cos(x))) / (2 * x - 2)));
+					valueArray[count] = Math.Round(y, 2);
+				}
 				count++;
 			}
-			return valueWaitArray;
-
-
+			return valueArray;
 
 		}
+
 	}
+	
 }
