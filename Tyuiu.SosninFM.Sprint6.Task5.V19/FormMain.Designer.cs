@@ -182,7 +182,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task5.V19
 			this.Controls.Add(this.panelCondition_SVA);
 			this.Name = "FormMain";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Спринт 6 | Таск 5 | Вариант 19 | Штоль В.А.";
+			this.Text = "Спринт 6 | Таск 5 | Вариант 19 | Соснин Ф. М.";
 			this.panelCondition_SVA.ResumeLayout(false);
 			this.groupBoxCondition_SVA.ResumeLayout(false);
 			this.groupBoxCondition_SVA.PerformLayout();
