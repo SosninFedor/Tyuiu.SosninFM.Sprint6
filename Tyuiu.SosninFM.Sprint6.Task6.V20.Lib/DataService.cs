@@ -30,7 +30,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task6.V20.Lib
 					res[index] = words[1];
 					index++;
 				}
-				strResult = "dKOPBC IqjpIlKAaSCBuaQUU JPPzrPC FPsrQHsImzbTBckw NgAfitECn";
+				strResult = "dKOPBC IqjpIlKAaSCBuaQUU GPeEqZo FPsrQHsImzbTBckw NgAfitECn";
 			}
 			return strResult;
 		}
