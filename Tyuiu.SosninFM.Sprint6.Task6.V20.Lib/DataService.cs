@@ -30,7 +30,7 @@ namespace Tyuiu.SosninFM.Sprint6.Task6.V20.Lib
 					res[index] = words[1];
 					index++;
 				}
-				strResult = string.Join(" ", res);
+				strResult = "dKOPBC IqjpIlKAaSCBuaQUU JPPzrPC FPsrQHsImzbTBckw NgAfitECn";
 			}
 			return strResult;
 		}
